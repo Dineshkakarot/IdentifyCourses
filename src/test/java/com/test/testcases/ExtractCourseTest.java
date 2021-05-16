@@ -15,18 +15,19 @@ import com.test.pages.HomePage;
 import com.test.pages.LandingPage;
 import com.test.pages.PageCourses;
 
-public class FirstCourseTest extends PageBase {
+public class ExtractCourseTest extends PageBase{
+
 	
 	LandingPage landingPage;
 	HomePage homePage;
 	PageCourses pageCourses;
 	String parentWindow;
 	
-	public FirstCourseTest() {
+	public ExtractCourseTest() {
 		
 		super();
 	}
-
+	
 	@BeforeMethod
 	public void setUp() {
 		
@@ -56,6 +57,30 @@ public class FirstCourseTest extends PageBase {
 			if (!childWindow1.contentEquals(parentWindow)) {
 				driver.switchTo().window(childWindow1);
 				String fhours = pageCourses.firstCourseHours.getText();
+				Reporter.log("Total learning hours of first course: "+fhours);
+				driver.close();
+			}
+			driver.switchTo().window(parentWindow);
+		}
+	}
+	
+	@Test(priority = 1)
+	public void secondcourse() {
+		
+		Reporter.log("Name of the second course :" + pageCourses.CourseName2());
+		Reporter.log("Ratings of the second course :" + pageCourses.CourseRating2());
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		parentWindow = driver.getWindowHandle();
+		wait.until(ExpectedConditions.elementToBeClickable(pageCourses.secondCourseName));
+		pageCourses.secondCourseName.click();
+		Set<String> handles2 = driver.getWindowHandles();
+		Iterator<String> itr2 = handles2.iterator();
+		while(itr2.hasNext()) {
+			
+			String childWindow1 = itr2.next();
+			if (!childWindow1.contentEquals(parentWindow)) {
+				driver.switchTo().window(childWindow1);
+				String fhours = pageCourses.secondCourseHours.getText();
 				Reporter.log("Total learning hours of first course: "+fhours);
 				driver.close();
 			}

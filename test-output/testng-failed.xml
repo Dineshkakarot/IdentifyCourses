@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.testcases.ProductsHomePageS5TC2">
+      <class name="com.test.testcases.ProductsHomeTest">
         <methods>
-          <include name="fillingWithoutFirstName"/>
+          <include name="fillingFormUsingValidDetails"/>
+          <include name="fillingWithoutJobFunction"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.testcases.ProductsHomePageS5TC2 -->
+      </class> <!-- com.test.testcases.ProductsHomeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

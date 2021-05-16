@@ -16,16 +16,12 @@
    	<test name="Scenario 4">
 		<classes>
 			<class name="com.test.testcases.PageCoursesTest" />
-			<class name="com.test.testcases.FirstCourseTest" />
-			<class name="com.test.testcases.SecondCourseTest" />
+			<class name="com.test.testcases.ExtractCourseTest" />
 		</classes>
 	</test> 
 	<test name = "Scenario 5">
 		<classes>
 			<class name = "com.test.testcases.ProductsHomeTest"></class>
-			<class name = "com.test.testcases.ProductsHomePageS5TC1"></class>
-			<class name = "com.test.testcases.ProductsHomePageS5TC2"></class>
-			<class name = "com.test.testcases.ProductsHomePageS5TC3"></class>
 		</classes>	
 	</test> 
 </suite>
