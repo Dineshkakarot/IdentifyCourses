@@ -28,6 +28,7 @@ public class ProductsHomePageS5TC2 extends PageBase{
 		super();
 	}
 	
+	//Before executing the tests it will load the browser and go to the particular page
 	@BeforeMethod
 	public void setUp() {
 		
@@ -36,6 +37,7 @@ public class ProductsHomePageS5TC2 extends PageBase{
 		productsHome = landingPage.navigateToForEnterprise();
 	}
 	
+	//It will provide the data present in sheet3
 	@DataProvider
 	public Object[][] getThirdPageData() {
 		
@@ -43,8 +45,10 @@ public class ProductsHomePageS5TC2 extends PageBase{
 		return data;
 	}
 	
+	
+	//Fill the details except lastname and check for error gets displayed or not.
 	@Test(dataProvider = "getThirdPageData", groups = "Regression")
-	public void fillingWithoutFirstName(String Fname,String JFunc, String JTitle, String Email, 
+	public void fillingWithoutLastName(String Fname,String JFunc, String JTitle, String Email, 
 			String Phone, String Instiname, String Institype, String disp, String country, String state) {
 		
 		
@@ -75,7 +79,7 @@ public class ProductsHomePageS5TC2 extends PageBase{
 		}
 	}
 	
-	
+	//After execution of each testcases it will close the browser.
 	@AfterMethod
 	public void tearDown() {
 		

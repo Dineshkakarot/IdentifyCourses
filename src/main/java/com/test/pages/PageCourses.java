@@ -46,6 +46,8 @@ public class PageCourses extends PageBase{
 	
 	@FindBy(xpath = "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[5]/div[2]/div[1]/span[1]")
 	public WebElement secondCourseHours;
+	
+	
 	//Initializing the Page Object
 	public PageCourses() {
 		

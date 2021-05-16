@@ -12,6 +12,7 @@ import com.test.base.PageBase;
 public class ProductsHome extends PageBase {
 
 	// PageObjects
+	//WebElement locators
 	@FindBy(xpath = "//div[@class = 'menu-menu-1-container']//li[2]")
 	WebElement Products;
 
@@ -21,7 +22,7 @@ public class ProductsHome extends PageBase {
 	@FindBy(xpath = "//a[contains(text(),'Get Started')]")
 	WebElement getStarted;
 
-	// Filling form text fields
+	// Filling form text fields webelement locators
 	@FindBy(xpath = "//input[@id='FirstName']")
 	WebElement FirstName;
 
@@ -40,7 +41,7 @@ public class ProductsHome extends PageBase {
 	@FindBy(xpath = "//input[@id='Company']")
 	WebElement InstitutionName;
 
-	// Select Options from dropdown WebElements
+	// Select Options from dropdown WebElements locators
 	@FindBy(xpath = "//select[@id='C4C_Job_Title__c']")
 	WebElement selectJobFunction;
 
@@ -59,12 +60,17 @@ public class ProductsHome extends PageBase {
 	@FindBy(xpath = "//button[@type='submit']")
 	WebElement submit;
 	
+	//Error messages that user gets for invlaid details webelement locators
 	@FindBy(xpath = "//div[@id='ValidMsgFirstName']")
 	WebElement firstnameError;
 	
 	@FindBy(xpath = "//div[@id='ValidMsgLastName']")
 	WebElement lastnameError;
 
+	@FindBy(xpath = "//div[@id='ValidMsgC4C_Job_Title__c']")
+	WebElement jobFunctionError;
+	
+	
 	// Initializing the pageobjects
 	public ProductsHome() {
 
@@ -87,24 +93,30 @@ public class ProductsHome extends PageBase {
 
 	}
 	
+	//Checks if the First name error is diplayed or not
 	public boolean firstnameErrorDisplayed() {
 		
 		return firstnameError.isDisplayed();
 	}
 
+	//Checks if the second course error is displayed or not
 	public boolean lastnameErroDisplayed() {
 
 		return lastnameError.isDisplayed();
 	}
+	
+	//Chceks if the job title course error is displayed or not
+	public boolean jobFunctionErrorDisplayed() {
 
+		return jobFunctionError.isDisplayed();
+	}
 
-	// Clicks on get started button to fill the form
 	public void clickGetStarted() {
 
 		getStarted.click();
 	}
 	
-	//For invlaid FirstName
+	//For invlaid FirstName and fill other details
 	public void excelInvalidFirstName(String Lname, String JFunc, String JTitle, String Email, String Phone,
 			String Instiname, String Institype, String disp, String country, String state) {
 
@@ -126,12 +138,35 @@ public class ProductsHome extends PageBase {
 		submit.click();
 	}
 	
+	
+	//For invalid lastname and fill other details
 	public void excelInvalidLastName(String Fname, String JFunc, String JTitle, String Email, String Phone,
 			String Instiname, String Institype, String disp, String country, String state) {
 
 		FirstName.sendKeys(Fname);
 		Select select1 = new Select(selectJobFunction);
 		select1.selectByVisibleText(JFunc);
+		JobTitle.sendKeys(JTitle);
+		EmailId.sendKeys(Email);
+		PhoneNumber.sendKeys(Phone);
+		InstitutionName.sendKeys(Instiname);
+		Select select2 = new Select(selectInstitutionType);
+		select2.selectByVisibleText(Institype);
+		Select select3 = new Select(selectDiscipline);
+		select3.selectByVisibleText(disp);
+		Select select4 = new Select(selectCountry);
+		select4.selectByVisibleText(country);
+		Select select5 = new Select(selectState);
+		select5.selectByVisibleText(state);
+		submit.click();
+	}
+	
+	//For invalid Job Function and fill other details
+	public void excelInvalidJobFunction(String Fname, String Lname, String JTitle, String Email, String Phone,
+			String Instiname, String Institype, String disp, String country, String state) {
+
+		FirstName.sendKeys(Fname);
+		LastName.sendKeys(Lname);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
 		PhoneNumber.sendKeys(Phone);
