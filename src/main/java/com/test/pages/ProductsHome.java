@@ -181,7 +181,7 @@ public class ProductsHome extends PageBase {
 	}
 	
 	//For invlaid FirstName and fill other details
-	public void excelInvalidFirstName(String Lname, String JFunc, String JTitle, String Email, String Phone,
+	public void excelInvalidFirstName(String Lname, String JFunc, String JTitle, String Email, 
 			String Instiname, String Institype, String disp, String country, String state) {
 
 		LastName.sendKeys(Lname);
@@ -189,7 +189,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -204,7 +204,7 @@ public class ProductsHome extends PageBase {
 	
 	
 	//For invalid lastname and fill other details
-	public void excelInvalidLastName(String Fname, String JFunc, String JTitle, String Email, String Phone,
+	public void excelInvalidLastName(String Fname, String JFunc, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
 		FirstName.sendKeys(Fname);
@@ -212,7 +212,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -226,14 +226,14 @@ public class ProductsHome extends PageBase {
 	}
 	
 	//For invalid Job Function and fill other details
-	public void excelInvalidJobFunction(String Fname, String Lname, String JTitle, String Email, String Phone,
+	public void excelInvalidJobFunction(String Fname, String Lname, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
 		FirstName.sendKeys(Fname);
 		LastName.sendKeys(Lname);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -246,7 +246,7 @@ public class ProductsHome extends PageBase {
 		submit.click();
 	}
 	
-	public void execelInvalidJobTitle(String Fname, String Lname, String JFunc, String Email, String Phone,
+	public void execelInvalidJobTitle(String Fname, String Lname, String JFunc, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
 		FirstName.sendKeys(Fname);
@@ -255,7 +255,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -268,7 +268,7 @@ public class ProductsHome extends PageBase {
 		submit.click();
 	}
 	
-	public void execelInvalidEmail(String Fname, String Lname, String JFunc, String JTitle, String Phone,
+	public void execelInvalidEmail(String Fname, String Lname, String JFunc, String JTitle,
 			String Instiname, String Institype, String disp, String country, String state) {
 
 		FirstName.sendKeys(Fname);
@@ -277,7 +277,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -312,7 +312,7 @@ public class ProductsHome extends PageBase {
 		submit.click();
 	}
 	
-	public void execelInvalidInstituteName(String Fname, String Lname, String JFunc, String JTitle, String Email, String Phone,
+	public void execelInvalidInstituteName(String Fname, String Lname, String JFunc, String JTitle, String Email, 
 			String Institype, String disp, String country, String state) {
 
 		FirstName.sendKeys(Fname);
@@ -321,7 +321,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -334,7 +334,7 @@ public class ProductsHome extends PageBase {
 		submit.click();
 	}
 	
-	public void execelInvalidInstituteType(String Fname, String Lname, String JFunc, String JTitle, String Email, String Phone,
+	public void execelInvalidInstituteType(String Fname, String Lname, String JFunc, String JTitle, String Email,
 			String Instiname, String disp, String country, String state) {
 
 		FirstName.sendKeys(Fname);
@@ -343,7 +343,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		
 		Select select3 = new Select(selectDiscipline);
@@ -355,7 +355,7 @@ public class ProductsHome extends PageBase {
 		submit.click();
 	}
 	
-	public void execelInvalidDiscipline(String Fname, String Lname, String JFunc, String JTitle, String Email, String Phone,
+	public void execelInvalidDiscipline(String Fname, String Lname, String JFunc, String JTitle, String Email,
 			String Instiname, String Institype, String country, String state) {
 
 		FirstName.sendKeys(Fname);
@@ -364,7 +364,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -376,7 +376,7 @@ public class ProductsHome extends PageBase {
 		submit.click();
 	}
 	
-	public void execelInvalidCountry(String Fname, String Lname, String JFunc, String JTitle, String Email, String Phone,
+	public void execelInvalidCountry(String Fname, String Lname, String JFunc, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String state) {
 
 		FirstName.sendKeys(Fname);
@@ -385,7 +385,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -397,7 +397,7 @@ public class ProductsHome extends PageBase {
 		submit.click();
 	}
 	
-	public void execelInvalidState(String Fname, String Lname, String JFunc, String JTitle, String Email, String Phone,
+	public void execelInvalidState(String Fname, String Lname, String JFunc, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String country) {
 
 		FirstName.sendKeys(Fname);
@@ -406,7 +406,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
@@ -419,7 +419,7 @@ public class ProductsHome extends PageBase {
 	}
 
 	// For entering all the valid details in the form
-	public void execelAllValidDetails(String Fname, String Lname, String JFunc, String JTitle, String Email, String Phone,
+	public void execelAllValidDetails(String Fname, String Lname, String JFunc, String JTitle, String Email, 
 			String Instiname, String Institype, String disp, String country, String state) {
 
 		FirstName.sendKeys(Fname);
@@ -428,7 +428,7 @@ public class ProductsHome extends PageBase {
 		select1.selectByVisibleText(JFunc);
 		JobTitle.sendKeys(JTitle);
 		EmailId.sendKeys(Email);
-		PhoneNumber.sendKeys(Phone);
+		PhoneNumber.sendKeys("503-555-1212");
 		InstitutionName.sendKeys(Instiname);
 		Select select2 = new Select(selectInstitutionType);
 		select2.selectByVisibleText(Institype);
