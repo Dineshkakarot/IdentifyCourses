@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "none" name = "Functional Testing">
+  	
+  	
+  	<listeners>
+  		<listener class-name = "com.test.ExtentReports.ExtentReporterNG"></listener>
+  	</listeners>
+  	
+  	
+  	<test name="Scenario 1">
+		<classes>
+			<class name="com.test.testcases.LandingPageTest" />
+		</classes>
+	</test>
+   	<test name="Scenario 4">
+		<classes>
+			<class name="com.test.testcases.PageCoursesTest" />
+			<class name="com.test.testcases.FirstCourseTest" />
+			<class name="com.test.testcases.SecondCourseTest" />
+		</classes>
+	</test> 
+	<test name = "Scenario 5">
+		<classes>
+			<class name = "com.test.testcases.ProductsHomeTest"></class>
+			<class name = "com.test.testcases.ProductsHomePageS5TC1"></class>
+		</classes>	
+	</test> 
+</suite>
