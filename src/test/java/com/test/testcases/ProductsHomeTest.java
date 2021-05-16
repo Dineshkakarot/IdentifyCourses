@@ -26,6 +26,8 @@ public class ProductsHomeTest extends PageBase {
 	String sheetName3 = "ThirdPage";
 	String sheetName4 = "FourthPage";
 	String sheetName5 = "FifthPage";
+	String sheetName6 = "SixthPage";
+	String sheetName7 = "SeventhPage";
 
 	public ProductsHomeTest() {
 
@@ -208,7 +210,7 @@ public class ProductsHomeTest extends PageBase {
 	}
 
 
-	@Test(priority = 4, dataProvider = "getFifthPageData", groups = "Regression")
+	//@Test(priority = 4, dataProvider = "getFifthPageData", groups = "Regression")
 	public void fillingWithoutJobTitle(String Fname, String Lname, String JFunc, String Email, String Phone,
 			String Instiname, String Institype, String disp, String country, String state) {
 
@@ -238,6 +240,85 @@ public class ProductsHomeTest extends PageBase {
 			driver.switchTo().window(parentWindow);
 		}
 	}
+	
+	@DataProvider
+	public Object[][] getSixthPageData() {
+
+		Object data[][] = TestUtil.getTestData(sheetName6);
+		return data;
+	}
+
+
+	//@Test(priority = 5, dataProvider = "getSixthPageData", groups = "Regression")
+	public void fillingWithoutEmail(String Fname, String Lname, String JFunc, String JTitle, String Phone,
+			String Instiname, String Institype, String disp, String country, String state) {
+
+		parentWindow = driver.getWindowHandle();
+		productsHome.clickonForCampus();
+		Set<String> handles3 = driver.getWindowHandles();
+		Iterator<String> itr3 = handles3.iterator();
+		while (itr3.hasNext()) {
+
+			String childWindow1 = itr3.next();
+			if (!childWindow1.contentEquals(parentWindow)) {
+				driver.switchTo().window(childWindow1);
+				productsHome.clickGetStarted();
+				try {
+					Thread.sleep(1000);
+					productsHome.execelInvalidEmail(Fname, Lname, JFunc, JTitle, Phone, Instiname, Institype, disp,
+							country, state);
+
+					Thread.sleep(2000);
+					boolean flag = productsHome.emailErrorDisplayed();
+					Assert.assertTrue(flag);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				driver.close();
+			}
+			driver.switchTo().window(parentWindow);
+		}
+	}
+	
+	@DataProvider
+	public Object[][] getSeventhPageData() {
+
+		Object data[][] = TestUtil.getTestData(sheetName7);
+		return data;
+	}
+
+
+	@Test(priority = 6, dataProvider = "getSeventhPageData", groups = "Regression")
+	public void fillingWithoutPhone(String Fname, String Lname, String JFunc, String JTitle, String Email,
+			String Instiname, String Institype, String disp, String country, String state) {
+
+		parentWindow = driver.getWindowHandle();
+		productsHome.clickonForCampus();
+		Set<String> handles3 = driver.getWindowHandles();
+		Iterator<String> itr3 = handles3.iterator();
+		while (itr3.hasNext()) {
+
+			String childWindow1 = itr3.next();
+			if (!childWindow1.contentEquals(parentWindow)) {
+				driver.switchTo().window(childWindow1);
+				productsHome.clickGetStarted();
+				try {
+					Thread.sleep(1000);
+					productsHome.execelInvalidPhone(Fname, Lname, JFunc, JTitle, Email, Instiname, Institype, disp,
+							country, state);
+
+					Thread.sleep(2000);
+					boolean flag = productsHome.phoneErrorDisplayed();
+					Assert.assertTrue(flag);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				driver.close();
+			}
+			driver.switchTo().window(parentWindow);
+		}
+	}
+
 
 	@AfterMethod
 	public void tearDown() {
