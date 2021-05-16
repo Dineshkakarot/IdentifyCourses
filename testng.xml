@@ -7,7 +7,6 @@
   		<listener class-name = "com.test.ExtentReports.ExtentReporterNG"></listener>
   	</listeners>
   	
-  	
   	<test name="Scenario 1">
 		<classes>
 			<class name="com.test.testcases.LandingPageTest" />
