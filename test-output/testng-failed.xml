@@ -5,10 +5,9 @@
     <classes>
       <class name="com.test.testcases.ProductsHomeTest">
         <methods>
-          <include name="fillingFormUsingValidDetails"/>
-          <include name="fillingWithoutJobFunction"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="fillingWithoutJobTitle"/>
         </methods>
       </class> <!-- com.test.testcases.ProductsHomeTest -->
     </classes>
