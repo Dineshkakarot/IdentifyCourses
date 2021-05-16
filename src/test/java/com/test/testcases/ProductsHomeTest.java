@@ -45,13 +45,13 @@ public class ProductsHomeTest extends PageBase{
 	}
 	
 	@DataProvider
-	public Object[][] getTestData() {
+	public Object[][] getFirstPageData() {
 		
 		Object data[][] = TestUtil.getTestData(sheetName1);
 		return data;
 	}
 	
-	@Test(priority = 12, dataProvider = "getTestData" , groups = "Regression")
+	@Test(priority = 12, dataProvider = "getFirstPageData" , groups = "Regression")
 	public void fillingFormUsingValidDetails(String Fname, String Lname,String JFunc, String JTitle, String Email, 
 			String Phone, String Instiname, String Institype, String disp, String country, String state) {
 		
