@@ -43,7 +43,7 @@ public class ProductsHomeTest extends PageBase {
 		productsHome = landingPage.navigateToForEnterprise();
 	}
 
-	// @Test(priority = 0, groups = "Smoke")
+	@Test(priority = 0, groups = "Smoke")
 	public void validateFEHomePageTitle() {
 
 		String actualTitle = productsHome.validatePageTitle();
@@ -57,8 +57,7 @@ public class ProductsHomeTest extends PageBase {
 		return data;
 	}
 
-	// @Test(priority = 12, dataProvider = "getFirstPageData", groups =
-	// "Regression")
+	@Test(priority = 12, dataProvider = "getFirstPageData", groups ="Regression")
 	public void fillingFormUsingValidDetails(String Fname, String Lname, String JFunc, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
@@ -93,7 +92,7 @@ public class ProductsHomeTest extends PageBase {
 		return data;
 	}
 
-	// @Test(priority = 1, dataProvider = "getSecondPageData", groups = "Regression")
+	@Test(priority = 1, dataProvider = "getSecondPageData", groups = "Regression")
 	public void fillingWithoutFirstName(String Lname, String JFunc, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
@@ -132,8 +131,8 @@ public class ProductsHomeTest extends PageBase {
 		return data;
 	}
 
-	// Fill the details except lastname and check for error gets displayed or not.
-	// @Test(priority = 2, dataProvider = "getThirdPageData", groups = "Regression")
+	
+	@Test(priority = 2, dataProvider = "getThirdPageData", groups = "Regression")
 	public void fillingWithoutLastName(String Fname, String JFunc, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
@@ -171,8 +170,7 @@ public class ProductsHomeTest extends PageBase {
 		return data;
 	}
 
-	// @Test(priority = 3, dataProvider = "getFourthPageData", groups =
-	// "Regression")
+	@Test(priority = 3, dataProvider = "getFourthPageData", groups ="Regression")
 	public void fillingWithoutJobFunction(String Fname, String Lname, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
@@ -210,7 +208,7 @@ public class ProductsHomeTest extends PageBase {
 		return data;
 	}
 
-	// @Test(priority = 4, dataProvider = "getFifthPageData", groups = "Regression")
+	@Test(priority = 4, dataProvider = "getFifthPageData", groups = "Regression")
 	public void fillingWithoutJobTitle(String Fname, String Lname, String JFunc, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
@@ -248,7 +246,7 @@ public class ProductsHomeTest extends PageBase {
 		return data;
 	}
 
-	// @Test(priority = 5, dataProvider = "getSixthPageData", groups = "Regression")
+	@Test(priority = 5, dataProvider = "getSixthPageData", groups = "Regression")
 	public void fillingWithoutEmail(String Fname, String Lname, String JFunc, String JTitle,
 			String Instiname, String Institype, String disp, String country, String state) {
 
@@ -286,7 +284,7 @@ public class ProductsHomeTest extends PageBase {
 		return data;
 	}
 
-	// @Test(priority = 6, dataProvider = "getSeventhPageData", groups ="Regression")
+	@Test(priority = 6, dataProvider = "getSeventhPageData", groups ="Regression")
 	public void fillingWithoutPhone(String Fname, String Lname, String JFunc, String JTitle, String Email,
 			String Instiname, String Institype, String disp, String country, String state) {
 
