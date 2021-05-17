@@ -1,27 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Name of the first course :Search Engine Optimization (SEO)]]>
+    </line>
+    <line>
+      <![CDATA[Ratings of the first course :4.6]]>
+    </line>
+    <line>
+      <![CDATA[Total learning hours of first course: Approximately 5 months to complete]]>
+    </line>
+    <line>
+      <![CDATA[Name of the second course :Introduction to Web Development]]>
+    </line>
+    <line>
+      <![CDATA[Ratings of the second course :4.7]]>
+    </line>
+    <line>
+      <![CDATA[Total learning hours of first course: Approx. 22 hours to complete]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-05-17T10:02:17 IST" name="Default suite" finished-at="2021-05-17T10:06:51 IST" duration-ms="273613">
+  <suite started-at="2021-05-17T19:00:31 IST" name="Functional Testing" finished-at="2021-05-17T19:10:49 IST" duration-ms="618124">
     <groups>
       <group name="Regression">
-        <method signature="ProductsHomeTest.fillingFormUsingValidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:com.test.testcases.ProductsHomeTest@661972b0]" name="fillingFormUsingValidDetails" class="com.test.testcases.ProductsHomeTest"/>
-        <method signature="ProductsHomeTest.fillingWithoutEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.testcases.ProductsHomeTest@661972b0]" name="fillingWithoutEmail" class="com.test.testcases.ProductsHomeTest"/>
-        <method signature="ProductsHomeTest.fillingWithoutFirstName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testcases.ProductsHomeTest@661972b0]" name="fillingWithoutFirstName" class="com.test.testcases.ProductsHomeTest"/>
-        <method signature="ProductsHomeTest.fillingWithoutIntituteName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:com.test.testcases.ProductsHomeTest@661972b0]" name="fillingWithoutIntituteName" class="com.test.testcases.ProductsHomeTest"/>
-        <method signature="ProductsHomeTest.fillingWithoutJobFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.test.testcases.ProductsHomeTest@661972b0]" name="fillingWithoutJobFunction" class="com.test.testcases.ProductsHomeTest"/>
-        <method signature="ProductsHomeTest.fillingWithoutJobTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.testcases.ProductsHomeTest@661972b0]" name="fillingWithoutJobTitle" class="com.test.testcases.ProductsHomeTest"/>
-        <method signature="ProductsHomeTest.fillingWithoutLastName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.test.testcases.ProductsHomeTest@661972b0]" name="fillingWithoutLastName" class="com.test.testcases.ProductsHomeTest"/>
-        <method signature="ProductsHomeTest.fillingWithoutPhone(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.test.testcases.ProductsHomeTest@661972b0]" name="fillingWithoutPhone" class="com.test.testcases.ProductsHomeTest"/>
+        <method signature="ProductsHomeTest.fillingFormUsingValidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="fillingFormUsingValidDetails" class="com.test.testcases.ProductsHomeTest"/>
+        <method signature="ProductsHomeTest.fillingWithoutEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="fillingWithoutEmail" class="com.test.testcases.ProductsHomeTest"/>
+        <method signature="ProductsHomeTest.fillingWithoutFirstName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="fillingWithoutFirstName" class="com.test.testcases.ProductsHomeTest"/>
+        <method signature="ProductsHomeTest.fillingWithoutIntituteName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="fillingWithoutIntituteName" class="com.test.testcases.ProductsHomeTest"/>
+        <method signature="ProductsHomeTest.fillingWithoutJobFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="fillingWithoutJobFunction" class="com.test.testcases.ProductsHomeTest"/>
+        <method signature="ProductsHomeTest.fillingWithoutJobTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="fillingWithoutJobTitle" class="com.test.testcases.ProductsHomeTest"/>
+        <method signature="ProductsHomeTest.fillingWithoutLastName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="fillingWithoutLastName" class="com.test.testcases.ProductsHomeTest"/>
+        <method signature="ProductsHomeTest.fillingWithoutPhone(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="fillingWithoutPhone" class="com.test.testcases.ProductsHomeTest"/>
       </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="PageCoursesTest.selectFilter()[pri:1, instance:com.test.testcases.PageCoursesTest@7d8995e]" name="selectFilter" class="com.test.testcases.PageCoursesTest"/>
+        <method signature="PageCoursesTest.validatePageTitle()[pri:0, instance:com.test.testcases.PageCoursesTest@7d8995e]" name="validatePageTitle" class="com.test.testcases.PageCoursesTest"/>
+        <method signature="ProductsHomeTest.validateFEHomePageTitle()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" name="validateFEHomePageTitle" class="com.test.testcases.ProductsHomeTest"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-05-17T10:02:17 IST" name="Default test" finished-at="2021-05-17T10:06:51 IST" duration-ms="273613">
-      <class name="com.test.testcases.ProductsHomeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:02:18 IST" name="setUp" finished-at="2021-05-17T10:02:41 IST" duration-ms="23053" status="PASS">
+    <test started-at="2021-05-17T19:00:31 IST" name="Scenario 1" finished-at="2021-05-17T19:01:05 IST" duration-ms="34208">
+      <class name="com.test.testcases.LandingPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:00:31 IST" name="setUp" finished-at="2021-05-17T19:00:40 IST" duration-ms="9063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingWithoutFirstName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:02:41 IST" name="fillingWithoutFirstName" data-provider="getSecondPageData" finished-at="2021-05-17T10:02:55 IST" duration-ms="13551" status="PASS">
+        <test-method signature="landingPageTitleTest()[pri:0, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:00:40 IST" name="landingPageTitleTest" finished-at="2021-05-17T19:00:41 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:00:41 IST" name="tearDown" finished-at="2021-05-17T19:00:42 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:00:42 IST" name="setUp" finished-at="2021-05-17T19:00:51 IST" duration-ms="9124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageLogoTest()[pri:1, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:00:51 IST" name="pageLogoTest" finished-at="2021-05-17T19:00:51 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:00:51 IST" name="tearDown" finished-at="2021-05-17T19:00:51 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:00:51 IST" name="setUp" finished-at="2021-05-17T19:01:04 IST" duration-ms="12369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:01:04 IST" name="loginTest" finished-at="2021-05-17T19:01:04 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LandingPageTest@6e171cd7]" started-at="2021-05-17T19:01:04 IST" name="tearDown" finished-at="2021-05-17T19:01:05 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.LandingPageTest -->
+    </test> <!-- Scenario 1 -->
+    <test started-at="2021-05-17T19:01:06 IST" name="Scenario 4" finished-at="2021-05-17T19:02:56 IST" duration-ms="110320">
+      <class name="com.test.testcases.ExtractCourseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ExtractCourseTest@130d63be]" started-at="2021-05-17T19:01:38 IST" name="setUp" finished-at="2021-05-17T19:01:58 IST" duration-ms="20401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="firstCourse()[pri:0, instance:com.test.testcases.ExtractCourseTest@130d63be]" started-at="2021-05-17T19:01:58 IST" name="firstCourse" finished-at="2021-05-17T19:02:17 IST" duration-ms="18780" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Name of the first course :Search Engine Optimization (SEO)]]>
+            </line>
+            <line>
+              <![CDATA[Ratings of the first course :4.6]]>
+            </line>
+            <line>
+              <![CDATA[Total learning hours of first course: Approximately 5 months to complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- firstCourse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ExtractCourseTest@130d63be]" started-at="2021-05-17T19:02:17 IST" name="tearDown" finished-at="2021-05-17T19:02:19 IST" duration-ms="1664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ExtractCourseTest@130d63be]" started-at="2021-05-17T19:02:19 IST" name="setUp" finished-at="2021-05-17T19:02:37 IST" duration-ms="18020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="secondcourse()[pri:1, instance:com.test.testcases.ExtractCourseTest@130d63be]" started-at="2021-05-17T19:02:37 IST" name="secondcourse" finished-at="2021-05-17T19:02:55 IST" duration-ms="18169" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Name of the second course :Introduction to Web Development]]>
+            </line>
+            <line>
+              <![CDATA[Ratings of the second course :4.7]]>
+            </line>
+            <line>
+              <![CDATA[Total learning hours of first course: Approx. 22 hours to complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondcourse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ExtractCourseTest@130d63be]" started-at="2021-05-17T19:02:55 IST" name="tearDown" finished-at="2021-05-17T19:02:56 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.ExtractCourseTest -->
+      <class name="com.test.testcases.PageCoursesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.PageCoursesTest@7d8995e]" started-at="2021-05-17T19:01:06 IST" name="setUp" finished-at="2021-05-17T19:01:18 IST" duration-ms="11921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePageTitle()[pri:0, instance:com.test.testcases.PageCoursesTest@7d8995e]" started-at="2021-05-17T19:01:18 IST" name="validatePageTitle" finished-at="2021-05-17T19:01:18 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.PageCoursesTest@7d8995e]" started-at="2021-05-17T19:01:18 IST" name="tearDown" finished-at="2021-05-17T19:01:19 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.PageCoursesTest@7d8995e]" started-at="2021-05-17T19:01:19 IST" name="setUp" finished-at="2021-05-17T19:01:34 IST" duration-ms="15157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectFilter()[pri:1, instance:com.test.testcases.PageCoursesTest@7d8995e]" started-at="2021-05-17T19:01:34 IST" name="selectFilter" finished-at="2021-05-17T19:01:37 IST" duration-ms="3239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.PageCoursesTest@7d8995e]" started-at="2021-05-17T19:01:37 IST" name="tearDown" finished-at="2021-05-17T19:01:38 IST" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.PageCoursesTest -->
+    </test> <!-- Scenario 4 -->
+    <test started-at="2021-05-17T19:02:56 IST" name="Scenario 5" finished-at="2021-05-17T19:10:49 IST" duration-ms="473004">
+      <class name="com.test.testcases.ProductsHomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:02:56 IST" name="setUp" finished-at="2021-05-17T19:03:23 IST" duration-ms="26561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFEHomePageTitle()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:03:23 IST" name="validateFEHomePageTitle" finished-at="2021-05-17T19:03:23 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFEHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:03:23 IST" name="tearDown" finished-at="2021-05-17T19:03:24 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:03:25 IST" name="setUp" finished-at="2021-05-17T19:03:53 IST" duration-ms="28205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillingWithoutFirstName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:03:53 IST" name="fillingWithoutFirstName" data-provider="getSecondPageData" finished-at="2021-05-17T19:03:59 IST" duration-ms="5420" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,15 +219,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingWithoutFirstName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:02:55 IST" name="tearDown" finished-at="2021-05-17T10:02:57 IST" duration-ms="1930" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:03:59 IST" name="tearDown" finished-at="2021-05-17T19:04:00 IST" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:02:57 IST" name="setUp" finished-at="2021-05-17T10:03:12 IST" duration-ms="15385" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:04:00 IST" name="setUp" finished-at="2021-05-17T19:04:27 IST" duration-ms="26566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingWithoutLastName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:03:12 IST" name="fillingWithoutLastName" data-provider="getThirdPageData" finished-at="2021-05-17T10:03:28 IST" duration-ms="15467" status="PASS">
+        <test-method signature="fillingWithoutLastName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:04:27 IST" name="fillingWithoutLastName" data-provider="getThirdPageData" finished-at="2021-05-17T19:04:42 IST" duration-ms="15076" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,15 +278,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingWithoutLastName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:03:28 IST" name="tearDown" finished-at="2021-05-17T10:03:29 IST" duration-ms="1116" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:04:42 IST" name="tearDown" finished-at="2021-05-17T19:04:43 IST" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:03:29 IST" name="setUp" finished-at="2021-05-17T10:03:50 IST" duration-ms="20854" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:04:43 IST" name="setUp" finished-at="2021-05-17T19:05:01 IST" duration-ms="18459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingWithoutJobFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:03:50 IST" name="fillingWithoutJobFunction" data-provider="getFourthPageData" finished-at="2021-05-17T10:04:06 IST" duration-ms="16375" status="PASS">
+        <test-method signature="fillingWithoutJobFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:05:01 IST" name="fillingWithoutJobFunction" data-provider="getFourthPageData" finished-at="2021-05-17T19:05:16 IST" duration-ms="14448" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,15 +337,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingWithoutJobFunction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:04:06 IST" name="tearDown" finished-at="2021-05-17T10:04:07 IST" duration-ms="1092" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:05:16 IST" name="tearDown" finished-at="2021-05-17T19:05:17 IST" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:04:07 IST" name="setUp" finished-at="2021-05-17T10:04:27 IST" duration-ms="19557" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:05:17 IST" name="setUp" finished-at="2021-05-17T19:06:05 IST" duration-ms="47864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingWithoutJobTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:04:27 IST" name="fillingWithoutJobTitle" data-provider="getFifthPageData" finished-at="2021-05-17T10:04:43 IST" duration-ms="16007" status="PASS">
+        <test-method signature="fillingWithoutJobTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:06:05 IST" name="fillingWithoutJobTitle" data-provider="getFifthPageData" finished-at="2021-05-17T19:06:44 IST" duration-ms="39093" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -249,15 +396,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingWithoutJobTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:04:43 IST" name="tearDown" finished-at="2021-05-17T10:04:45 IST" duration-ms="2239" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:06:44 IST" name="tearDown" finished-at="2021-05-17T19:06:45 IST" duration-ms="921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:04:45 IST" name="setUp" finished-at="2021-05-17T10:05:07 IST" duration-ms="22137" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:06:45 IST" name="setUp" finished-at="2021-05-17T19:07:38 IST" duration-ms="52990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingWithoutEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:05:07 IST" name="fillingWithoutEmail" data-provider="getSixthPageData" finished-at="2021-05-17T10:05:17 IST" duration-ms="9943" status="PASS">
+        <test-method signature="fillingWithoutEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:07:38 IST" name="fillingWithoutEmail" data-provider="getSixthPageData" finished-at="2021-05-17T19:08:16 IST" duration-ms="38156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -308,15 +455,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingWithoutEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:05:17 IST" name="tearDown" finished-at="2021-05-17T10:05:18 IST" duration-ms="1009" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:08:16 IST" name="tearDown" finished-at="2021-05-17T19:08:17 IST" duration-ms="814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:05:18 IST" name="setUp" finished-at="2021-05-17T10:05:39 IST" duration-ms="21133" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:08:17 IST" name="setUp" finished-at="2021-05-17T19:09:00 IST" duration-ms="43178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingWithoutPhone(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:05:39 IST" name="fillingWithoutPhone" data-provider="getSeventhPageData" finished-at="2021-05-17T10:05:53 IST" duration-ms="13445" status="PASS">
+        <test-method signature="fillingWithoutPhone(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:09:00 IST" name="fillingWithoutPhone" data-provider="getSeventhPageData" finished-at="2021-05-17T19:09:13 IST" duration-ms="13541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -372,15 +519,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingWithoutPhone -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:05:53 IST" name="tearDown" finished-at="2021-05-17T10:05:54 IST" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:09:13 IST" name="tearDown" finished-at="2021-05-17T19:09:14 IST" duration-ms="1015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:05:54 IST" name="setUp" finished-at="2021-05-17T10:06:12 IST" duration-ms="18271" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:09:14 IST" name="setUp" finished-at="2021-05-17T19:09:38 IST" duration-ms="23398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingWithoutIntituteName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:06:12 IST" name="fillingWithoutIntituteName" data-provider="getEighthPageData" finished-at="2021-05-17T10:06:22 IST" duration-ms="9539" status="PASS">
+        <test-method signature="fillingWithoutIntituteName(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:09:38 IST" name="fillingWithoutIntituteName" data-provider="getEighthPageData" finished-at="2021-05-17T19:10:04 IST" duration-ms="26370" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -431,15 +578,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingWithoutIntituteName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:06:22 IST" name="tearDown" finished-at="2021-05-17T10:06:22 IST" duration-ms="834" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:10:04 IST" name="tearDown" finished-at="2021-05-17T19:10:05 IST" duration-ms="1127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:06:22 IST" name="setUp" finished-at="2021-05-17T10:06:39 IST" duration-ms="16593" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:10:05 IST" name="setUp" finished-at="2021-05-17T19:10:35 IST" duration-ms="29635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingFormUsingValidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:06:39 IST" name="fillingFormUsingValidDetails" data-provider="getFirstPageData" finished-at="2021-05-17T10:06:50 IST" duration-ms="10957" status="PASS">
+        <test-method signature="fillingFormUsingValidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:10:35 IST" name="fillingFormUsingValidDetails" data-provider="getFirstPageData" finished-at="2021-05-17T19:10:48 IST" duration-ms="12927" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -495,11 +642,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingFormUsingValidDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@661972b0]" started-at="2021-05-17T10:06:50 IST" name="tearDown" finished-at="2021-05-17T10:06:51 IST" duration-ms="867" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.ProductsHomeTest@47eaca72]" started-at="2021-05-17T19:10:48 IST" name="tearDown" finished-at="2021-05-17T19:10:49 IST" duration-ms="1187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.testcases.ProductsHomeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Scenario 5 -->
+  </suite> <!-- Functional Testing -->
 </testng-results>

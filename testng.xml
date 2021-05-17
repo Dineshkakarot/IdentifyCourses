@@ -21,6 +21,7 @@
 	<test name = "Scenario 5">
 		<classes>
 			<class name = "com.test.testcases.ProductsHomeTest"></class>
+			
 		</classes>	
 	</test> 
 </suite>
