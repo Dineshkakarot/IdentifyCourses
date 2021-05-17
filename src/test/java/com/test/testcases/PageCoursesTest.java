@@ -9,7 +9,7 @@ import com.test.pages.HomePage;
 import com.test.pages.LandingPage;
 import com.test.pages.PageCourses;
 
-public class PageCoursesTest extends PageBase{
+public class PageCoursesTest extends PageBase{// Page courses test java class
 
 	LandingPage landingPage;
 	HomePage homePage;
