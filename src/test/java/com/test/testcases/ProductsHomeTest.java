@@ -252,11 +252,11 @@ public class ProductsHomeTest extends PageBase {
 
 		parentWindow = driver.getWindowHandle();
 		productsHome.clickonForCampus();
-		Set<String> handles3 = driver.getWindowHandles();
-		Iterator<String> itr3 = handles3.iterator();
-		while (itr3.hasNext()) {
+		Set<String> handles = driver.getWindowHandles();
+		Iterator<String> itr = handles.iterator();
+		while (itr.hasNext()) {
 
-			String childWindow1 = itr3.next();
+			String childWindow1 = itr.next();
 			if (!childWindow1.contentEquals(parentWindow)) {
 				driver.switchTo().window(childWindow1);
 				productsHome.clickGetStarted();
@@ -290,11 +290,11 @@ public class ProductsHomeTest extends PageBase {
 
 		parentWindow = driver.getWindowHandle();
 		productsHome.clickonForCampus();
-		Set<String> handles3 = driver.getWindowHandles();
-		Iterator<String> itr3 = handles3.iterator();
-		while (itr3.hasNext()) {
+		Set<String> handles = driver.getWindowHandles();
+		Iterator<String> itr3= handles.iterator();
+		while (itr.hasNext()) {
 
-			String childWindow1 = itr3.next();
+			String childWindow1 = itr.next();
 			if (!childWindow1.contentEquals(parentWindow)) {
 				driver.switchTo().window(childWindow1);
 				productsHome.clickGetStarted();
@@ -328,11 +328,11 @@ public class ProductsHomeTest extends PageBase {
 
 		parentWindow = driver.getWindowHandle();
 		productsHome.clickonForCampus();
-		Set<String> handles3 = driver.getWindowHandles();
-		Iterator<String> itr3 = handles3.iterator();
-		while (itr3.hasNext()) {
+		Set<String> handles = driver.getWindowHandles();
+		Iterator<String> itr = handles.iterator();
+		while (itr.hasNext()) {
 
-			String childWindow1 = itr3.next();
+			String childWindow1 = itr.next();
 			if (!childWindow1.contentEquals(parentWindow)) {
 				driver.switchTo().window(childWindow1);
 				productsHome.clickGetStarted();
