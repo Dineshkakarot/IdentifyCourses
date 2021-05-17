@@ -55,11 +55,7 @@ public class PageCourses extends PageBase{
 	}
 	
 	//Actions of the Page
-	//Returns the Title of the page
-	public String validatePageTitle() {
-		
-		return driver.getTitle();
-	}
+	
 	
 	//Selects the language filter option
 	public void selectLanguage() {
@@ -75,17 +71,6 @@ public class PageCourses extends PageBase{
 		selectBeginner.click();
 	}
 	
-	//Returns if language is selected
-	public boolean languangeDisplayed() {
-		
-		return checkLanguageFilter.isDisplayed();
-	}
-	
-	//Returns if langage is selected
-	public boolean levelDisplayed() {
-
-		return checkLevelFilter.isDisplayed();
-	}
 	
 	//Returns the name of the first course
 	public String CourseName1() {

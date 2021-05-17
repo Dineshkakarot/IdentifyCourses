@@ -43,8 +43,8 @@ public class ExtractCourseTest extends PageBase{
 	@Test(priority = 0)
 	public void firstCourse() {
 		
-		Reporter.log("Name of the first course :" + pageCourses.CourseName1());
-		Reporter.log("Ratings of the first course :" + pageCourses.CourseRating1());
+		System.out.println("Name of the first course :" + pageCourses.CourseName1());
+		System.out.println("Ratings of the first course :" + pageCourses.CourseRating1());
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		parentWindow = driver.getWindowHandle();
 		wait.until(ExpectedConditions.elementToBeClickable(pageCourses.firstCourseName));
@@ -57,7 +57,7 @@ public class ExtractCourseTest extends PageBase{
 			if (!childWindow1.contentEquals(parentWindow)) {
 				driver.switchTo().window(childWindow1);
 				String fhours = pageCourses.firstCourseHours.getText();
-				Reporter.log("Total learning hours of first course: "+fhours);
+				System.out.println("Total learning hours of first course: "+fhours);
 				driver.close();
 			}
 			driver.switchTo().window(parentWindow);
@@ -67,8 +67,8 @@ public class ExtractCourseTest extends PageBase{
 	@Test(priority = 1)
 	public void secondcourse() {
 		
-		Reporter.log("Name of the second course :" + pageCourses.CourseName2());
-		Reporter.log("Ratings of the second course :" + pageCourses.CourseRating2());
+		System.out.println("Name of the second course :" + pageCourses.CourseName2());
+		System.out.println("Ratings of the second course :" + pageCourses.CourseRating2());
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		parentWindow = driver.getWindowHandle();
 		wait.until(ExpectedConditions.elementToBeClickable(pageCourses.secondCourseName));
@@ -81,7 +81,7 @@ public class ExtractCourseTest extends PageBase{
 			if (!childWindow1.contentEquals(parentWindow)) {
 				driver.switchTo().window(childWindow1);
 				String fhours = pageCourses.secondCourseHours.getText();
-				Reporter.log("Total learning hours of first course: "+fhours);
+				System.out.println("Total learning hours of first course: "+fhours);
 				driver.close();
 			}
 			driver.switchTo().window(parentWindow);

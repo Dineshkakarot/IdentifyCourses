@@ -7,21 +7,14 @@
   		<listener class-name = "com.test.ExtentReports.ExtentReporterNG"></listener>
   	</listeners>
   	
-  	<test name="Scenario 1">
-		<classes>
-			<class name="com.test.testcases.LandingPageTest" />
-		</classes>
-	</test>
    	<test name="Scenario 4">
 		<classes>
-			<class name="com.test.testcases.PageCoursesTest" />
 			<class name="com.test.testcases.ExtractCourseTest" />
 		</classes>
 	</test> 
 	<test name = "Scenario 5">
 		<classes>
-			<class name = "com.test.testcases.ProductsHomeTest"></class>
-			
+			<class name = "com.test.testcases.FillingForm"></class>
 		</classes>	
 	</test> 
 </suite>

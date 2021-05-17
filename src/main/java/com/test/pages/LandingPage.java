@@ -42,11 +42,6 @@ public class LandingPage extends PageBase{
 	}
 	
 	
-	public boolean validatePageLogo() {
-		
-		return pageLogo.isDisplayed();
-	}
-	
 	public HomePage doLogin(String un, String pwd) {
 		
 		loginBtn.click();
