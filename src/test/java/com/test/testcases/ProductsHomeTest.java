@@ -291,7 +291,7 @@ public class ProductsHomeTest extends PageBase {
 		parentWindow = driver.getWindowHandle();
 		productsHome.clickonForCampus();
 		Set<String> handles = driver.getWindowHandles();
-		Iterator<String> itr3= handles.iterator();
+		Iterator<String> itr= handles.iterator();
 		while (itr.hasNext()) {
 
 			String childWindow1 = itr.next();
