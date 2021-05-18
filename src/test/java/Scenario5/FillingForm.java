@@ -9,10 +9,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.test.base.PageBase;
-import com.test.pages.LandingPage;
-import com.test.pages.ProductsHome;
-import com.test.util.TestUtil;
+import BaseClass.PageBase;
+import Pages.LandingPage;
+import Pages.ProductsHome;
+import Utilities.TestUtil;
 
 public class FillingForm extends PageBase {
 

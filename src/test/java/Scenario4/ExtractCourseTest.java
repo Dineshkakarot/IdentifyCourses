@@ -9,10 +9,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.test.base.PageBase;
-import com.test.pages.HomePage;
-import com.test.pages.LandingPage;
-import com.test.pages.PageCourses;
+import BaseClass.PageBase;
+import Pages.HomePage;
+import Pages.LandingPage;
+import Pages.PageCourses;
 
 public class ExtractCourseTest extends PageBase{
 

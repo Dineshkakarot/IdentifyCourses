@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-18T10:48:17 IST" name="Default suite" finished-at="2021-05-18T10:49:09 IST" duration-ms="51633">
+  <suite started-at="2021-05-18T17:28:18 IST" name="Functional Testing" finished-at="2021-05-18T17:29:44 IST" duration-ms="85938">
     <groups>
       <group name="Regression">
-        <method signature="FillingForm.fillingFormUsingValidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testcases.FillingForm@2a798d51]" name="fillingFormUsingValidDetails" class="com.test.testcases.FillingForm"/>
-        <method signature="FillingForm.fillingWithoutEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.test.testcases.FillingForm@2a798d51]" name="fillingWithoutEmail" class="com.test.testcases.FillingForm"/>
+        <method signature="FillingForm.fillingFormUsingValidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Scenario5.FillingForm@38d8f54a]" name="fillingFormUsingValidDetails" class="Scenario5.FillingForm"/>
+        <method signature="FillingForm.fillingWithoutEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Scenario5.FillingForm@38d8f54a]" name="fillingWithoutEmail" class="Scenario5.FillingForm"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2021-05-18T10:48:17 IST" name="Default test" finished-at="2021-05-18T10:49:09 IST" duration-ms="51633">
-      <class name="com.test.testcases.FillingForm">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.FillingForm@2a798d51]" started-at="2021-05-18T10:48:18 IST" name="setUp" finished-at="2021-05-18T10:48:37 IST" duration-ms="19441" status="PASS">
+    <test started-at="2021-05-18T17:28:18 IST" name="Scenario 4" finished-at="2021-05-18T17:29:03 IST" duration-ms="44877">
+      <class name="Scenario4.ExtractCourseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Scenario4.ExtractCourseTest@79924b]" started-at="2021-05-18T17:28:18 IST" name="setUp" finished-at="2021-05-18T17:28:35 IST" duration-ms="17653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillingFormUsingValidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testcases.FillingForm@2a798d51]" started-at="2021-05-18T10:48:38 IST" name="fillingFormUsingValidDetails" data-provider="getFirstPageData" finished-at="2021-05-18T10:48:57 IST" duration-ms="19350" status="PASS">
+        <test-method signature="firstCourse()[pri:0, instance:Scenario4.ExtractCourseTest@79924b]" started-at="2021-05-18T17:28:35 IST" name="firstCourse" finished-at="2021-05-18T17:28:53 IST" duration-ms="17319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCourse -->
+        <test-method signature="secondcourse()[pri:1, instance:Scenario4.ExtractCourseTest@79924b]" started-at="2021-05-18T17:28:53 IST" name="secondcourse" finished-at="2021-05-18T17:29:02 IST" duration-ms="9050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondcourse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Scenario4.ExtractCourseTest@79924b]" started-at="2021-05-18T17:29:02 IST" name="tearDown" finished-at="2021-05-18T17:29:03 IST" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Scenario4.ExtractCourseTest -->
+    </test> <!-- Scenario 4 -->
+    <test started-at="2021-05-18T17:29:03 IST" name="Scenario 5" finished-at="2021-05-18T17:29:44 IST" duration-ms="41029">
+      <class name="Scenario5.FillingForm">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Scenario5.FillingForm@38d8f54a]" started-at="2021-05-18T17:29:03 IST" name="setUp" finished-at="2021-05-18T17:29:21 IST" duration-ms="18811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillingFormUsingValidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Scenario5.FillingForm@38d8f54a]" started-at="2021-05-18T17:29:22 IST" name="fillingFormUsingValidDetails" data-provider="getFirstPageData" finished-at="2021-05-18T17:29:35 IST" duration-ms="13276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingFormUsingValidDetails -->
-        <test-method signature="fillingWithoutEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.test.testcases.FillingForm@2a798d51]" started-at="2021-05-18T10:48:57 IST" name="fillingWithoutEmail" data-provider="getSixthPageData" finished-at="2021-05-18T10:49:08 IST" duration-ms="10813" status="PASS">
+        <test-method signature="fillingWithoutEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Scenario5.FillingForm@38d8f54a]" started-at="2021-05-18T17:29:35 IST" name="fillingWithoutEmail" data-provider="getSixthPageData" finished-at="2021-05-18T17:29:43 IST" duration-ms="7357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,11 +142,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingWithoutEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.FillingForm@2a798d51]" started-at="2021-05-18T10:49:08 IST" name="tearDown" finished-at="2021-05-18T10:49:09 IST" duration-ms="939" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Scenario5.FillingForm@38d8f54a]" started-at="2021-05-18T17:29:43 IST" name="tearDown" finished-at="2021-05-18T17:29:44 IST" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.test.testcases.FillingForm -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Scenario5.FillingForm -->
+    </test> <!-- Scenario 5 -->
+  </suite> <!-- Functional Testing -->
 </testng-results>

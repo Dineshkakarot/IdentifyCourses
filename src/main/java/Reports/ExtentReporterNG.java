@@ -1,4 +1,4 @@
-package com.test.ExtentReports;
+package Reports;
 
 import java.io.File;
 import java.util.Calendar;

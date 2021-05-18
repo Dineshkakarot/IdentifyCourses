@@ -1,4 +1,4 @@
-package com.test.base;
+package BaseClass;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import com.test.util.TestUtil;
+import Utilities.TestUtil;
 
 public class PageBase {
 
@@ -23,7 +23,7 @@ public class PageBase {
 		try {
 			
 			prop = new Properties();
-			FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//com//test//config//config.properties");
+			FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//Properties//config.properties");
 			prop.load(file);
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();
