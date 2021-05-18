@@ -7,6 +7,14 @@
 		<listener class-name="Reports.ExtentReporterNG"></listener>
 	</listeners>
 
+	<test name="Scenario 1">
+		<classes>
+			<class name="Scenario1.ValidateTest" />
+			<class name="Scenario1.HomePageTest2"/>
+			<class name="Scenario1.HomePageTest"/>
+		</classes>
+    
+    </test>
 	<test name="Scenario 4">
 		<classes>
 			<class name="Scenario4.ExtractCourseTest" />
