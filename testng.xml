@@ -9,7 +9,7 @@
   	
    	<test name="Scenario 4">
 		<classes>
-			<class name="com.test.testcases.ExtractCourseTest" />
+			<class name="Scenario4.ExtractCourseTest" />
 		</classes>
 	</test> 
 	<test name = "Scenario 5">
