@@ -1,4 +1,4 @@
-package com.test.testcases;
+package Scenario5;
 
 import java.util.Iterator;
 import java.util.Set;

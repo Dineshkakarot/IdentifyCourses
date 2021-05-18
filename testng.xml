@@ -14,7 +14,7 @@
 	</test> 
 	<test name = "Scenario 5">
 		<classes>
-			<class name = "com.test.testcases.FillingForm"></class>
+			<class name = "Scenario5.FillingForm"></class>
 		</classes>	
 	</test> 
 </suite>
