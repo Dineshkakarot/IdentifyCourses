@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.testcases.ProductsHomeTest">
+      <class name="com.test.testcases.LanguageAndLevelTest">
         <methods>
-          <include name="fillingFormUsingValidDetails"/>
-          <include name="tearDown"/>
+          <include name="listLanguageLeft"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.testcases.ProductsHomeTest -->
+      </class> <!-- com.test.testcases.LanguageAndLevelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
